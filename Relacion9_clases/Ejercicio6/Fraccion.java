@@ -21,7 +21,7 @@ public class Fraccion {
     }
 
     
-    // métodos de objeto
+    // métodos  de objeto
     void invierte(){
         int temp;
 
