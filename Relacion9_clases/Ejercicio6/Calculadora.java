@@ -39,7 +39,8 @@ public class Calculadora {
         switch (opc) {
             case 1:
             
-            System.out.printf("La fracción inversa es %d/%d\n", fraccion1.getDenominador(),fraccion1.getNumerador());
+            fraccion1.invierte();
+            System.out.printf("La fracción inversa es %d/%d\n", fraccion1.getNumerador(),fraccion1.getDenominador());
 
                 break;
             case 2:
@@ -60,8 +61,11 @@ public class Calculadora {
 
                 break;
             case 3:
-                
-            
+            int mcd;
+            mcd=fraccion1.MCD(fraccion1);
+            resultado= Fraccion.SimplificaFraccion(fraccion1, mcd);
+            System.out.println();
+            System.out.println("La fraccion "+fraccion1.getNumerador()+"/"+fraccion1.getDenominador()+" simplificada es: " +resultado.getNumerador()+"/"+resultado.getDenominador()+  " y su MCD es: " +mcd);
 
                 break;
             case 4:
