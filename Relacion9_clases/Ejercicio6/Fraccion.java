@@ -5,7 +5,7 @@ public class Fraccion {
     // atributos de objetos
     int numerador,denominador;
 
-  
+    
     // metodos de clase
    
     static Fraccion MultiplicaFraccion(Fraccion f1,Fraccion f2){
