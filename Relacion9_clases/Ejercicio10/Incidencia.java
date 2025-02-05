@@ -3,8 +3,10 @@ package POO.src.Relacion9_clases.Ejercicio10;
 public class Incidencia {
 
     int numero,puesto;
-    static int pendiente=0;
     String tipo,estado,solucion;
+
+    //atributo de clase suelen ir estaticos
+    static int pendiente=0;
    
     public Incidencia(int numero,String tipo){
     
@@ -46,3 +48,4 @@ public class Incidencia {
         return pendiente;
     }
 }
+

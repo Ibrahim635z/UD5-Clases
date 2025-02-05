@@ -2,7 +2,7 @@ package POO.src.Relacion9_clases.Ejercicio10;
 
 public class Control {
     public static void main(String[] args) {
-       
+     
 
     Incidencia inc1 = new Incidencia(105, "No tiene acceso a internet");
     Incidencia inc2 = new Incidencia(14, "No arranca");
