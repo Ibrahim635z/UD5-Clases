@@ -7,21 +7,21 @@ public class Autobus {
     int potenciaCV;
     int numeroPlazas;
 
-    void setnumeroPlaza(int plazas){
+    public void setnumeroPlaza(int plazas){
 
         numeroPlazas=plazas;
     }
     
-    String getMatricula(){
+    public String getMatricula(){
         return matricula;
     }
-    String getModelo(){
+    public String getModelo(){
         return modelo;
     }
-    int getpotenciaCV(){
+    public int getpotenciaCV(){
         return potenciaCV;
     }
-    int getnumeroPlaza(){
+    public int getnumeroPlaza(){
         return numeroPlazas;
     }
 
