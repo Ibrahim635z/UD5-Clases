@@ -1,5 +1,7 @@
 package POO.src.Relacion10_arrayObjetos.Ejercicio2;
 
+import POO.src.Relacion10_arrayObjetos.Ejercicio3.PruebaArticulo;
+
 public class Articulo {
     private String codigo,descripcion;
     private int precio_compra,precio_venta,stock;
