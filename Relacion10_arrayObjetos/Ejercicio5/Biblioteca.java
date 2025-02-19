@@ -15,7 +15,7 @@ public class Biblioteca {
         System.out.println("2. Introducir Libro");
         System.out.println("3. Consultar cantidades");
         opc=entrada.nextInt();
-
+        entrada.nextLine();
         switch (opc) {
             case 1:
             System.out.println("Dime el nombre del autor");
@@ -35,9 +35,14 @@ public class Biblioteca {
             System.out.println("dime titulo libro");
             titulo=entrada.nextLine();
             
+            System.out.println("Dime el nombre del autor");
+            nombre=entrada.nextLine();
+            
+            System.out.println("Dime la nacionalidad del autor");
+            nacionalidad=entrada.nextLine();
             
     
-            Libros libro1=new Libros(codigo, titulo, autor1);
+            Libros libro1=new Libros(codigo, titulo, new Autores (nombre,nacionalidad));
     
             System.out.println(libro1);
                 break;

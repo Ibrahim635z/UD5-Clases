@@ -41,6 +41,6 @@ public class Personas {
 
     @Override
     public String toString() {
-        return "nif: " +nif+" altura: " +altura+ " edad: " +edad;
+        return "PERSONA NIF: " +nif+" Altura: " +altura+ " Edad: " +edad;
     }
 }
