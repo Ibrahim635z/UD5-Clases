@@ -38,6 +38,12 @@ public class Personas {
         return nif;
     }
 
+    public void hablar(){
+            System.out.println("Hola, puedo hablar");
+    }
+    public void comer(){
+        System.out.println("ñam ñam");
+    }
 
     @Override
     public String toString() {
