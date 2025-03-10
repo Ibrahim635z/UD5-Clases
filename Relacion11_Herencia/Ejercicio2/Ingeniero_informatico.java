@@ -12,5 +12,7 @@ public class Ingeniero_informatico extends Ingeniero {
 
         System.out.println("Estoy creando programas");
     }
+   
+
     
 }
