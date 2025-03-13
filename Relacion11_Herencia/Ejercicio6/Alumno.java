@@ -23,5 +23,8 @@ public class Alumno extends Persona {
     public void setNotaMedia (double notaMedia){ 
         this.notaMedia= notaMedia; 
     } 
+    public void Mostrar(){
+        System.out.println("El alumno esta en el grupo "+grupo+ " y tiene de nota media: " +notaMedia);
+    }
      
 } 

@@ -23,4 +23,7 @@ public class Profesor extends Persona {
     public void setESpecialidad (String especialidad){ 
         this.especialidad= especialidad; 
     } 
+    public void Mostrar(){
+        System.out.println("Profesor especialista en "+especialidad+ " y cobra " +salario);
+    }
 } 
