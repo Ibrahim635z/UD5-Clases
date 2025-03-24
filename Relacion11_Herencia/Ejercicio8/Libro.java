@@ -1,6 +1,6 @@
 package POO.src.Relacion11_Herencia.Ejercicio8;
 
-public class Libro extends Publicacion implements Prestable {
+public class Libro extends Publicacion implements Prestable,Comparable<Libro> {
     boolean prestado;
     public Libro(String ISBN,String titulo,int anio){
         super(ISBN,titulo,anio);

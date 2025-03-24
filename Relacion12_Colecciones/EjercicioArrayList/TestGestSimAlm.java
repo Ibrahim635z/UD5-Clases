@@ -35,8 +35,15 @@ public class TestGestSimAlm {
                     break;
                 case 3:
                     almacen.lista();
-                    
-                    almacen.baja(a1);
+                    int codigo2;
+                String descripcion2;
+                System.out.println("Dime el codigo");
+                codigo2=entrada.nextInt();
+                entrada.nextLine();
+                System.out.println("dime la descripcion");
+                descripcion2=entrada.nextLine();
+                Articulo a2=new Articulo(codigo2, descripcion2);
+                    almacen.baja(a2);
                 break;
                 case 4:
                 System.out.println("Cuanta mercancia quieres añadir?");
